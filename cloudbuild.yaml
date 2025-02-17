@@ -12,8 +12,8 @@ steps:
   - --filename=gke.yaml
   - --image=gcr.io/$PROJECT_ID/pdf-app
   - --location=us-central1-c
-  - --cluster=gcp-devops-project
-  - --namespace=gcp-devops-prod
+  - --cluster=pdf-app
+  - --namespace=pdf-app-prod
 
 
 options:
