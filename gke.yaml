@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pdf-app-gke
-        image: [ADD IMAGE] 
+        image: gcr.io/cloud-chef-439008/pdf-app:latest 
         ports:
         - containerPort: 8080
         env:
