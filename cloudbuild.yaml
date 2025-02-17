@@ -17,6 +17,6 @@ steps:
 
 
 options:
-  logging: NONE
+  logging: CLOUD_LOGGING_ONLY
 
 serviceAccount: '297818405395-compute@developer.gserviceaccount.com'
