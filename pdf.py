@@ -120,7 +120,7 @@ with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Streamlit app layout
-st.markdown('<div class="header"><h1>Apna Study Buddy</h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="header"><h1>AI Study Buddy</h1></div>', unsafe_allow_html=True)
 
 col1, separator, col2 = st.columns([1, 0.02, 4], gap="small")
 
